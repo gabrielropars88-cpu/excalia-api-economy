@@ -11,7 +11,9 @@
  * 5. Debug sections enrichies : items oraxen:, items tiers
  */
 
-const API_URL   = '/api/excalia/economie';
+const API_URL = import.meta.env.PROD
+  ? 'https://excalia.fr/api/economie'
+  : '/api/excalia/economie';
 const CACHE_KEY = 'excalia_slim_v3';
 const HIST_KEY  = 'excalia_price_history';
 const CUST_KEY  = 'excalia_custom_prices';
