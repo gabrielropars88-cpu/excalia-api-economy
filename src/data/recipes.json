@@ -1,0 +1,263 @@
+{
+  "_comment": "Fichier de recettes pour les minerais Excalia. Modifiable librement.",
+  "_version": "1.0",
+  "families": {
+    "iron": {
+      "label": "Fer",
+      "emoji": "⚙️",
+      "color": "#d1d5db",
+      "baseItem": "iron_ingot",
+      "blockItem": "iron_block",
+      "oreItem": "iron_ore",
+      "blockRatio": 9,
+      "tiers": {
+        "t1": {
+          "ingredient": "iron_ingot",
+          "quantity": 9,
+          "stacks": 9
+        },
+        "t2": {
+          "ingredient": "iron_t1",
+          "quantity": 9
+        },
+        "t3": {
+          "ingredient": "iron_t2",
+          "quantity": 9
+        },
+        "t4": {
+          "ingredient": "iron_t3",
+          "quantity": 9
+        }
+      },
+      "mcIcon": "https://minecraft.wiki/images/Iron_Ingot_JE3_BE2.png"
+    },
+    "gold": {
+      "label": "Or",
+      "emoji": "✨",
+      "color": "#fbbf24",
+      "baseItem": "gold_ingot",
+      "blockItem": "gold_block",
+      "oreItem": "gold_ore",
+      "blockRatio": 9,
+      "tiers": {
+        "t1": {
+          "ingredient": "gold_ingot",
+          "quantity": 9,
+          "stacks": 9
+        },
+        "t2": {
+          "ingredient": "gold_t1",
+          "quantity": 9
+        },
+        "t3": {
+          "ingredient": "gold_t2",
+          "quantity": 9
+        },
+        "t4": {
+          "ingredient": "gold_t3",
+          "quantity": 9
+        }
+      },
+      "mcIcon": "https://minecraft.wiki/images/Gold_Ingot_JE4_BE2.png"
+    },
+    "copper": {
+      "label": "Cuivre",
+      "emoji": "🔶",
+      "color": "#ea580c",
+      "baseItem": "copper_ingot",
+      "blockItem": "copper_block",
+      "oreItem": "copper_ore",
+      "blockRatio": 9,
+      "tiers": {
+        "t1": {
+          "ingredient": "copper_ingot",
+          "quantity": 9,
+          "stacks": 9
+        },
+        "t2": {
+          "ingredient": "copper_t1",
+          "quantity": 9
+        },
+        "t3": {
+          "ingredient": "copper_t2",
+          "quantity": 9
+        }
+      },
+      "mcIcon": "https://minecraft.wiki/images/Copper_Ingot_JE2_BE1.png"
+    },
+    "coal": {
+      "label": "Charbon",
+      "emoji": "🪨",
+      "color": "#6b7280",
+      "baseItem": "coal",
+      "blockItem": "coal_block",
+      "oreItem": "coal_ore",
+      "blockRatio": 9,
+      "tiers": {
+        "t1": {
+          "ingredient": "coal",
+          "quantity": 9,
+          "stacks": 9
+        },
+        "t2": {
+          "ingredient": "coal_t1",
+          "quantity": 9
+        },
+        "t3": {
+          "ingredient": "coal_t2",
+          "quantity": 9
+        }
+      },
+      "mcIcon": "https://minecraft.wiki/images/Coal_JE4_BE3.png"
+    },
+    "diamond": {
+      "label": "Diamant",
+      "emoji": "💎",
+      "color": "#38bdf8",
+      "baseItem": "diamond",
+      "blockItem": "diamond_block",
+      "oreItem": "diamond_ore",
+      "blockRatio": 9,
+      "tiers": {
+        "t1": {
+          "ingredient": "diamond",
+          "quantity": 9,
+          "stacks": 9
+        },
+        "t2": {
+          "ingredient": "diamond_t1",
+          "quantity": 9
+        },
+        "t3": {
+          "ingredient": "diamond_t2",
+          "quantity": 9
+        },
+        "t4": {
+          "ingredient": "diamond_t3",
+          "quantity": 9
+        }
+      },
+      "mcIcon": "https://minecraft.wiki/images/Diamond_JE3_BE3.png"
+    },
+    "emerald": {
+      "label": "Émeraude",
+      "emoji": "🟢",
+      "color": "#10b981",
+      "baseItem": "emerald",
+      "blockItem": "emerald_block",
+      "oreItem": "emerald_ore",
+      "blockRatio": 9,
+      "tiers": {
+        "t1": {
+          "ingredient": "emerald",
+          "quantity": 9,
+          "stacks": 9
+        },
+        "t2": {
+          "ingredient": "emerald_t1",
+          "quantity": 9
+        },
+        "t3": {
+          "ingredient": "emerald_t2",
+          "quantity": 9
+        }
+      },
+      "mcIcon": "https://minecraft.wiki/images/Emerald_JE3_BE3.png"
+    },
+    "redstone": {
+      "label": "Redstone",
+      "emoji": "🔴",
+      "color": "#ef4444",
+      "baseItem": "redstone",
+      "blockItem": "redstone_block",
+      "oreItem": "redstone_ore",
+      "blockRatio": 9,
+      "tiers": {
+        "t1": {
+          "ingredient": "redstone",
+          "quantity": 9,
+          "stacks": 9
+        },
+        "t2": {
+          "ingredient": "redstone_t1",
+          "quantity": 9
+        },
+        "t3": {
+          "ingredient": "redstone_t2",
+          "quantity": 9
+        }
+      },
+      "mcIcon": "https://minecraft.wiki/images/Redstone_Dust_JE2_BE2.png"
+    },
+    "lapis": {
+      "label": "Lapis",
+      "emoji": "🔵",
+      "color": "#3b82f6",
+      "baseItem": "lapis_lazuli",
+      "blockItem": "lapis_block",
+      "oreItem": "lapis_ore",
+      "blockRatio": 9,
+      "tiers": {
+        "t1": {
+          "ingredient": "lapis_lazuli",
+          "quantity": 9,
+          "stacks": 9
+        },
+        "t2": {
+          "ingredient": "lapis_t1",
+          "quantity": 9
+        },
+        "t3": {
+          "ingredient": "lapis_t2",
+          "quantity": 9
+        }
+      },
+      "mcIcon": "https://minecraft.wiki/images/Lapis_Lazuli_JE1_BE1.png"
+    },
+    "quartz": {
+      "label": "Quartz",
+      "emoji": "⬜",
+      "color": "#f9fafb",
+      "baseItem": "quartz",
+      "blockItem": "quartz_block",
+      "oreItem": "nether_quartz_ore",
+      "blockRatio": 4,
+      "tiers": {
+        "t1": {
+          "ingredient": "quartz",
+          "quantity": 9,
+          "stacks": 9
+        },
+        "t2": {
+          "ingredient": "quartz_t1",
+          "quantity": 9
+        }
+      },
+      "mcIcon": "https://minecraft.wiki/images/Nether_Quartz_JE2_BE2.png"
+    },
+    "netherite": {
+      "label": "Netherite",
+      "emoji": "⚫",
+      "color": "#7c3aed",
+      "baseItem": "netherite_ingot",
+      "blockItem": "netherite_block",
+      "oreItem": "ancient_debris",
+      "blockRatio": 9,
+      "tiers": {
+        "t1": {
+          "ingredient": "netherite_ingot",
+          "quantity": 9,
+          "stacks": 9
+        },
+        "t2": {
+          "ingredient": "netherite_t1",
+          "quantity": 9
+        }
+      },
+      "mcIcon": "https://minecraft.wiki/images/Netherite_Ingot_JE2_BE1.png"
+    }
+  },
+  "blockRatioDefault": 9,
+  "stackSize": 64,
+  "tierStacksDefault": 9
+}
